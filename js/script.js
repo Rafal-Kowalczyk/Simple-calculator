@@ -94,7 +94,7 @@
     var clearAll = function() {
         oldNum = "";
         theNum = "";
-        viewer.innerHTML = "GO";
+        viewer.innerHTML = "0";
         equals.setAttribute("data-result", resultNum);
     };
 
