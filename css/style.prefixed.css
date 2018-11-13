@@ -19,6 +19,7 @@ body {
 
 h1 {
   margin: 0;
+  margin-bottom: 50px;
 }
 
 .calculator {
@@ -46,12 +47,12 @@ h1 {
 .viewer {
   color: #c97874;
   float: left;
-  line-height: 7em;
+  line-height: 8em;
   text-align: right;
   text-overflow: ellipsis;
   overflow: hidden;
   width: 9.9em;
-  height: 5em;
+  height: 6em;
 }
 
 button {
@@ -84,7 +85,7 @@ button:focus::after {
   cursor: default;
   font-size: 80px;
   position: absolute;
-  top: 1em;
+  top: 2em;
   left: 50%;
   text-align: center;
   margin-left: -24px;
@@ -103,8 +104,8 @@ button:focus::after {
 /* pojawiające się operatory */
 .ops:focus::after {
   content: attr(data-ops);
-  margin-left: -25px;
-  widows: 600px;
+  margin-left: -300px;
+  width: 600px;
 }
 
 .equals:focus::after {
